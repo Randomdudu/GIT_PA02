@@ -19,6 +19,18 @@ public class Obstacles : MonoBehaviour
 
         if(transform.position.z <= -8)
         {
+            GameManager.Score++;
+            HUD.HUDManager.UpdateScore();
+            Destroy(gameObject);
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            Debug.Log("Hit Player");
+            GameManager.Lives--;
+            HUD.HUDManager.UpdateLives();
             Destroy(gameObject);
         }
     }
