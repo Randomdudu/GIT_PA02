@@ -29,6 +29,7 @@ public class Obstacles : MonoBehaviour
         if (other.tag == "Player")
         {
             Debug.Log("Hit Player");
+
             GameManager.Lives--;
             HUD.HUDManager.UpdateLives();
             Destroy(gameObject);

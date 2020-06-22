@@ -301,6 +301,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prefab_UI
       objectReference: {fileID: 0}
+    - target: {fileID: 224074814083274712, guid: b10220c3eab02f446ab6281b25dfeb01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.000050863
+      objectReference: {fileID: 0}
+    - target: {fileID: 224074814083274712, guid: b10220c3eab02f446ab6281b25dfeb01,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 57.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 224074814083274712, guid: b10220c3eab02f446ab6281b25dfeb01,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 85.3
+      objectReference: {fileID: 0}
     - target: {fileID: 224351976067039010, guid: b10220c3eab02f446ab6281b25dfeb01,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5128,13 +5143,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100115573350819254}
-  m_LocalRotation: {x: 0.42261827, y: -0, z: -0, w: 0.9063079}
+  m_LocalRotation: {x: 0.1828276, y: -0, z: -0, w: 0.983145}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 100115572944171719}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 21.069, y: 0, z: 0}
 --- !u!108 &100115573350819253
 Light:
   m_ObjectHideFlags: 0
